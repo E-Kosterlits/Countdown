@@ -40,17 +40,24 @@ h1{
 }
 #time{
   background-color: rgba(245, 245, 245, 0.7);
-  padding: 5%;
   width: 20%;
-  margin: 0;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h2{
   font-size: 5rem;
   font-weight:100;
   font-family: "Raleway";
+  margin: 0;
 }
 
 p{
   font-weight: 700;
+  margin: 0;
 }
