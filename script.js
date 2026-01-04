@@ -23,10 +23,10 @@ function timer() {
 if (Days < 0){
     Title.innerHTML="the Wedding was this long ago:";
     document.body.style.backgroundImage= "url(BGwedding.jpg)";
-
 }
 }
 
 setInterval(timer, 1000);
+
 
 
