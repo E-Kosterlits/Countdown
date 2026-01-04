@@ -3,7 +3,6 @@ const hours= document.getElementById("hours");
 const minutes= document.getElementById("minutes");
 const seconds= document.getElementById("seconds");
 
-
 const weddingDate= new Date("October 31 2025 00:00:00").getTime();
 
 function timer() {
@@ -29,4 +28,5 @@ if (Days < 0){
 }
 
 setInterval(timer, 1000);
+
 
