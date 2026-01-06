@@ -20,13 +20,14 @@ function timer() {
     seconds.innerHTML=Math.abs(Seconds);
 
     const Title= document.getElementById("title");
-if (Days < 0){
+if (Days <= 0){
     Title.innerHTML="the Wedding was this long ago:";
     document.body.style.backgroundImage= "url(BGwedding.jpg)";
 }
 }
 
 setInterval(timer, 1000);
+
 
 
 
